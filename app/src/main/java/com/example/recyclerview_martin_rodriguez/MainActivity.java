@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         }));
 
 
+
+
         Adaptador adaptador = new Adaptador(contactos);
         
         RecyclerView rvContactos = findViewById(R.id.rvContactos);
