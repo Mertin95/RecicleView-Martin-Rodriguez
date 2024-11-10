@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        // Array de contactos//imagenes
+        // Array de contactos//imagenes varias
         ArrayList<Contactos> contactos = new ArrayList<>(Arrays.asList(new Contactos[]{
                 new Contactos("Nombre Contacto 1", "Apellidos Contacto 1", "emailContacto1@email.com", "145646", R.drawable.imagen4),
                 new Contactos("Nombre Contacto 2", "Apellidos Contacto 2", "emailContacto2@email.com", "141231", R.drawable.imagen2),
